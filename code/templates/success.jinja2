@@ -1,0 +1,12 @@
+{% extends 'base.jinja2' %}
+
+{% block content %}
+<h3> Your request was successfully registered with the details , you will receive a response on your email id  : </h1>
+
+{{data}}
+<br>
+<br>
+<a href = "{{url_for('home')}}"> go back to the home page </a>
+
+{% endblock %}
+

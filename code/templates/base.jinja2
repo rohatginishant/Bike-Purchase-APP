@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: #F0F0F0;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: #1E90FF;
+      text-align: center;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: auto;
+      padding: 10px;
+      background-color: #FFFFFF;
+      border: 1px solid #CCCCCC;
+      box-shadow: 0 0 10px #CCCCCC;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #CCCCCC;
+    }
+
+    th {
+      background-color: #1E90FF;
+      color: #FFFFFF;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-top: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+      padding: 10px;
+      background-color: #F0F0F0;
+      border: 1px solid #CCCCCC;
+    }
+  </style>
+</head>
+<body>
+
+  <h1> Bike Purchase App </h1>
+  <br><br>
+  <h3> Catalogue : </h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>bike_id</th>
+        <th>name</th>
+        <th>color</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Kawasaki Ninja</td>
+        <td>blue</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Kawasaki Ninja</td>
+        <td>black</td>
+      </tr>
+    </tbody>
+  </table>
+
+  {% block content %}
+  {% endblock %}
+
+</body>
+</html>
